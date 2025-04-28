@@ -20,19 +20,19 @@ export default function ProjectOne() {
           <div className="w-[350px] h-52">
             <img
               className="w-[350px] h-52 rounded-md"
-              alt=""
+              alt="image1"
               src="/images/rest.jpg"
             />
           </div>
-          <div className="flex flex-col gap-4 h-52 ml-3">
+          <div className="flex flex-col gap-4 h-52 ml-3 sm:block hidden">
             <img
-              className="h-24 object-cover rounded-md"
-              alt=""
+              className="h-24 object-contain rounded-md"
+              alt="image2"
               src="/images/chef.jpg"
             />
             <img
-              className="h-24 object-cover rounded-md"
-              alt=""
+              className="h-24 object-contain rounded-md"
+              alt="image3"
               src="/images/cafe.jpg"
             />
           </div>

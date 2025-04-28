@@ -4,7 +4,7 @@ import { FaQuoteRight } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa";
 export default function ProjectTwo() {
   return (
-    <div className="w-full 2xl:h-screen md:h-min-screen bg-[#363742]">
+    <div className="w-full 2xl:h-screen md:min-h-screen bg-[#363742]">
       <div className="flex flex-col items-center justify-center pt-30 pb-15">
         <p className="text-white text-[40px]">Do not take our word for it.</p>
         <p className="text-4xl font-bold bg-gradient-to-r from-[#03de27] via-[#0fc9a7] to-[#88e5ff] bg-clip-text text-transparent">
@@ -27,10 +27,10 @@ export default function ProjectTwo() {
             virtual project manager by your side, keeping everything organized
             and on track. I've never felt more in control of my projects.
           </p>
-          <p className="text-white pt-4 px-5">Carmen Walmsley</p>
-          <p className="text-[#54566b] text-[13px] px-5">
+          <span className="text-white pt-4 px-5">Carmen Walmsley</span>
+          <span className="text-[#54566b] text-[13px] px-5">
             Head of Community @ByteBlast Solutions
-          </p>
+          </span>
         </div>
         <div className="relative w-[350px] h-[450px] bg-[#262730] rounded-2xl p-4">
           <div className="flex items-center justify-between">
@@ -46,10 +46,10 @@ export default function ProjectTwo() {
             my team aligned and productive. From task assignment to progress
             tracking, it covers all the bases and then some.
           </p>
-          <p className="text-white pt-4 px-5">Joe Price</p>
-          <p className="text-[#54566b] text-[13px] px-5">
+          <span className="text-white pt-4 px-5">Joe Price</span>
+          <span className="text-[#54566b] text-[13px] px-5">
             Business Analyst @Joe C. Price
-          </p>
+          </span>
         </div>
         <div className="relative w-[350px] h-[450px] bg-[#262730] rounded-2xl p-4">
           <div className="flex items-center justify-between">
@@ -65,10 +65,10 @@ export default function ProjectTwo() {
             the cake. It's intuitive, efficient, and packed with features that
             make managing complex projects a breeze.
           </p>
-          <p className="text-white pt-4 px-5">Kevin Dandrea</p>
-          <p className="text-[#54566b] text-[13px] px-5">
+          <span className="text-white pt-4 px-5">Kevin Dandrea</span>
+          <span className="text-[#54566b] text-[13px] px-5">
             Project Manager @DataDynamo Solutions
-          </p>
+          </span>
         </div>
         <IoIosArrowForward className="hidden xl:block text-3xl text-amber-50 bg-[#54566b] rounded-sm" />
       </div>
